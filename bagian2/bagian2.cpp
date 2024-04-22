@@ -9,6 +9,12 @@ private:
 public:
 	float luas;
 
+	void input() {
+		cout << " masukkan panjangnya = ";
+		cin >> panjang;
+		cout << " masukkan lebarnya = ";
+		cin >> lebar;
+	}
 };
 
 int main()
